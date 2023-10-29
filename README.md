@@ -1,7 +1,7 @@
 # E-Commerce Web App with React and Redux Toolkit
 
-![E-Commerce App Screenshot](screenshot.png)
-
+![E-Commerce App Screenshot](src/componnent/main.png)
+![E-Commerce App Screenshot](src/componnent/cart.png)
 This is a simple e-commerce web application built with React, Redux Toolkit, Tailwind CSS, Material-UI, and React Router. Please note that the project prioritizes functionality over design, and it currently includes two main pages: the main shopping page and the cart page.
 
 ## Features
