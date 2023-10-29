@@ -42,7 +42,7 @@ function Data() {
         <div className='flex w-full justify-center  flex-wrap gap-5 items-center h-full mt-7'>
             {isLoading ? <div className=' h-96 w-full flex items-center justify-center'><div className='spinner'></div></div> : isError ? <div className=' h-96 w-full flex items-center justify-center'><div className=' text-black'>error something wrong !!</div></div> : data.map((el) => {
                 // change the card height or width as you want maxWidth & maxHeight
-                return <Card key={el.id} sx={{ maxWidth: 600, maxHeight: 600 }}>
+                return <Card key={el.id} sx={{ maxWidth: 445, maxHeight: 600 }}>
                     <CardMedia
                         sx={{ height: 170 }}
                         image={el.image}
@@ -58,7 +58,7 @@ function Data() {
                     </CardContent>
                     <CardActions className='w-full justify-center items-center flex'>
                         <Button variant="text"> ${el.price} </Button>
-                        <Button onClick={() => { addToCart(el) }} variant="contained">Add To Car</Button>
+                        <Button onClick={() => { addToCart(el) }} variant="contained">Add To Cart</Button>
                     </CardActions>
                 </Card>
             })}

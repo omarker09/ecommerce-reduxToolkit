@@ -21,7 +21,7 @@ function Cart() {
         }
     }
 
-    // declear dispatch as useDispatch()
+    // declare dispatch as useDispatch()
     const dispatch = useDispatch()
 
     // Calculating The Total price with reduce() so we can loop the data and calc the total price * quantity
