@@ -58,7 +58,7 @@ function Data() {
                     </CardContent>
                     <CardActions className='w-full justify-center items-center flex'>
                         <Button variant="text"> ${el.price} </Button>
-                        <Button onClick={() => { addToCart(el) }} variant="contained">Add To Cart</Button>
+                        <Button onClick={() => { addToCart(el) }} variant="contained">Add To Car</Button>
                     </CardActions>
                 </Card>
             })}
