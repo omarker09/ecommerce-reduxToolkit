@@ -4,8 +4,6 @@
 
 This is a simple e-commerce web application built with React, Redux Toolkit, Tailwind CSS, Material-UI, and React Router. Please note that the project prioritizes functionality over design, and it currently includes two main pages: the main shopping page and the cart page.
 
-![E-Commerce App Screenshot](src/componnent/cart.png)
-
 ## Features
 
 - Browse a list of products on the main page.
@@ -15,23 +13,17 @@ This is a simple e-commerce web application built with React, Redux Toolkit, Tai
 - Utilizes Material-UI for buttons and card components.
 - Styled using Tailwind CSS.
 
+  ![E-Commerce App Screenshot](src/componnent/cart.png)
+
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: git clone https://github.com/omarker09/ecommerce-reduxToolkit.git
 
-git clone https://github.com/omarker09/ecommerce-reduxToolkit.git
+3. Change to the project directory: cd ecommerce-reduxToolkit
 
-3. Change to the project directory:
+5. Install the project dependencies: npm install
 
-cd ecommerce-reduxToolkit
-
-5. Install the project dependencies:
-
-npm install
-
-7. To start the development server and run the project, use the following command:
-
-npm start
+7. To start the development server and run the project, use the following command: npm start
 
 This will launch the application in your default web browser. You can start browsing products and adding them to your cart.
 
